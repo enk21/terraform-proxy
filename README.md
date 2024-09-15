@@ -36,7 +36,7 @@ Below are example Terraform commands to deploy the project.
 
 1. To initialize, run `terraform init`
 
-2. Use the following command to target a specific environment:
+2. Use the following commands to target a specific environment:
 
 - **dev**
   - `terraform apply -var-file="vars-dev.tfvars" -state="terraform-dev.tfstate"`
